@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    }
+    header{
+        background-image: url(bata.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    ul{
+        float: right;
+        margin-top: 35px;
+    }
+    ul li{
+       display: inline-block;
+    }
+    ul li a{
+        text-decoration: none;
+        color: rgb(247, 247, 247);
+        padding: 50px 50px #000;
+        border: 1px solid #ffffff;
+        border-radius: 6px;
+        transition: 0.7s;
+        margin: 7px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    ul li a:hover{
+        background-color: #d8fd02;
+        color: #000;
+    }
+    .logo img{
+        float: left;
+        width: 180px;
+        height: auto;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .navbar{
+        max-width: 1200px;
+        margin: auto;
+    
+    }
+    .contens{
+        position: absolute;
+        top: 35%;
+        left: 30%;
+    }
+    .contens h1{
+        color: #fa0c0ca8;
+        font-size: 50px;
+        text-shadow:  5px 5px 5px #f7f2f2;
+    }
+    .color{
+        color: rgb(43, 255, 0);
+    }
+    .contens p{
+        color: rgb(13, 238, 227);
+        font-size: 50px;
+        text-align: center;
+        bottom: 2%;
+    }
+    .button{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    margin-top: 300px;
+    font-weight: bold;
+    }
+    .btn{
+        border: 2px solid #fff;
+        padding: 10px 10px;
+        color: red;
+        text-decoration: none;
+        transition: 0, 6s ease;
+        border-radius: 20px;
+        margin: 10px;
+        background-color: rgb(211, 194, 194);
+    
+    }
+    .btn :hover{
+        background-color: blue;
+        color: #17f0ff;
+    }
+    
+    
